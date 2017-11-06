@@ -12,7 +12,7 @@ import java.util.List;
  *
  * @author Yindo
  */
-public class Test {
+public abstract class Test {
 
     /**
      * @param args the command line arguments
@@ -22,14 +22,11 @@ public class Test {
     
     public static void main(String[] args) {
         
-        
-        Person john = new Person(101, "John");
-        Person Amy = new Person(102, "Amy");
+       
         Teacher Jeppe = new Teacher(201, "Jeppe", "JD");
         Student Poop = new Student(103, "Poop", "Maths");
        
-        persons.add(john);
-        persons.add(Amy);
+       
         persons.add(Jeppe);
         persons.add(Poop);
        
